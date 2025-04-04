@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    --gray-100: #0D0E11;
+    --gray-200: #16181D;
+    --gray-300: #292C34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4CE;
+    --gray-600: #E2E4E9;
+
+    --font-family-1: "Asap", sans-serif;
+    --font-family-2: "Inconsolata", monospace;
+    --font-family-3: "Maven Pro", sans-serif;
+
+    --title-lg: bold 40px/120% var(--font-family-1);
+    --title-md: bold 24px/120% var(--font-family-1);
+    --title-sm: bold 16px/120% var(--font-family-1);
+
+    --subtitle: 20px/120% var(--font-family-2);
+
+    --text-md: 16px/140% var(--font-family-3);
+    --text-sm: 14px/140% var(--font-family-3);
+}
+
+body{
+    background-color: var(--gray-300);
+    font: var(--text-md);
+    color: var(--gray-400);
+}
+
+
+.content-tag{
+    
+    a{
+        display: flex;
+        background-color: var(--gray-300);
+        text-align: center;
+        padding-inline: 16px;
+        padding-block: 8px;
+        border-radius: 999px;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        
+    }
+    
+    img{
+        width: 24px;
+        height: 24px;
+    }
+    
+}
+
+
+
+.container{
+    margin-inline: auto;
+    width: 1366px;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+  
+

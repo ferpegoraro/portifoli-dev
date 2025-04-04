@@ -1,0 +1,63 @@
+header{
+    background-image:url(../assets/background/Background_Intro.png);
+    background-size: cover;
+    width: 1366px;
+    height: 750px;
+
+    
+
+    
+    
+    justify-items: center;
+    
+
+}
+
+#primary-menu{ 
+    
+
+
+    padding-block: 120px;
+    justify-items: center;
+    align-items: center;
+    
+    text-align: center;
+    padding-bottom: 80px;
+    
+    h1{
+        padding-block: 8px 20px;
+        
+    }
+    
+    span{
+        color: var(--red);
+    }
+
+    div:nth-child(4){
+        max-width: 680px;
+    }
+    
+    img{
+        width: 96px;
+        height: 96px;
+        border-radius: 100%;
+        margin-bottom: 56px;
+        border: 2px solid var(--red);
+        padding: 4px;
+        
+    }
+
+    
+}
+
+
+#secondary-menu{
+    gap: 16px;
+    
+    img{
+        width: 24px;
+        height: 24px;
+        
+    }
+
+}
