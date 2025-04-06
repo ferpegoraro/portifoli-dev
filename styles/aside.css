@@ -17,3 +17,49 @@ aside{
     margin-inline: 24px;
     padding: 20px;
 }
+
+#contact{
+    
+    padding-bottom: 144px;
+
+    div:nth-child(1){
+        span{
+            display: block;
+            background-image: url(../assets/icons-site/devices.svg);
+            background-repeat: no-repeat;
+            width: 32px;
+            height: 32px;
+            margin-bottom: 10px;
+            filter: invert(54%) sepia(60%) saturate(380%) hue-rotate(235deg);
+        }
+    }
+}
+
+#contact{
+    div:nth-child(2){
+        span{
+            display: block;
+            background-image: url(../assets/icons-site/hard-drives.svg);
+            background-repeat: no-repeat;
+            width: 32px;
+            height: 32px;
+            margin-bottom: 10px;
+            filter: invert(81%) sepia(54%) saturate(397%) hue-rotate(2deg) brightness(101%) contrast(93%);
+        }
+    }
+}
+
+#contact{
+    div:nth-child(3){
+        span{
+            display: block;
+            background-image: url(../assets/icons-site/infinity.svg);
+            background-repeat: no-repeat;
+            width: 32px;
+            height: 32px;
+            margin-bottom: 10px;
+            filter: invert(75%) sepia(24%) saturate(696%) hue-rotate(49deg) brightness(89%) contrast(85%);
+
+        }
+    }
+}
