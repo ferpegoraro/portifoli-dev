@@ -1,0 +1,19 @@
+footer{
+    background-image: url(../assets/background/Background_Contacts.png);
+    object-fit: cover;
+    background-size: cover;
+    height: 787px;
+    padding-top: 144px;
+}
+
+#end{
+    padding-bottom:48px;
+    span{
+        color: var(--purple);
+    }
+}
+
+#social{
+    justify-content: center;
+}
+
