@@ -1,7 +1,6 @@
 header{
     background-image:url(../assets/background/Background_Intro.png);
     background-size: cover;
-    width: 1366px;
     height: 750px;
 
     
@@ -60,4 +59,9 @@ header{
         
     }
 
+}
+
+#seta{
+    padding-top:94px;
+    padding-bottom:54px;
 }

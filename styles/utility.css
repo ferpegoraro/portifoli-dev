@@ -16,33 +16,14 @@
 .text-sm{
     font: var(--text-sm);
 }
+.text-md-500{
+    font: var(text-md);
+    color: var(--gray-500);
+}
 
 .subtitle{
     font: var(--subtitle);
     color: var(--gray-500);
 }
 
-.icon-github {
-    color: var(--gray-500);
-  }
-  
-  .icon-html {
-    color: #e44d26;
-  }
-  
-  .icon-css {
-    color: #379ad6;
-  }
-  
-  .icon-js {
-    color: #f7df1e;
-  }
-  
-  .icon-react {
-    color: #61dafb;
-  }
-  
-  .icon-node {
-    color: #8cc84b;
-  }
   
