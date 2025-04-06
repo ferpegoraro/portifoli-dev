@@ -1,0 +1,17 @@
+/* #about{
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    padding-block: 72px 56px;
+
+    span{
+        color: var(--red);
+    }
+    se transformou em uma classe title --> global.css
+} */
+
+#projects{
+    grid-template-columns: repeat(3, 330px);
+    padding-inline: 120px;
+    padding-bottom: 144px;
+}
