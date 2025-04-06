@@ -82,6 +82,7 @@ a{
     img{
         width: 306px;
         height: 156px;
+        object-fit: cover;
         border-radius: 8px;
         margin-bottom: 20px;
     }

@@ -14,4 +14,16 @@
     grid-template-columns: repeat(3, 330px);
     padding-inline: 120px;
     padding-bottom: 144px;
+    
 }
+
+#projects  strong{
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  
+
+
+
+
+
